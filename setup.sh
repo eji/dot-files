@@ -16,7 +16,7 @@ do
   if [ -d $f ]; then
     NEWDOT=$(basename $f | sed 's/dot//')
     echo "s: ${f}-> $HOME/$NEWDOT"
-    ln -sf $f $HOME/
+    ln -sf $f $HOME/$NEWDOT
   else
     NEWDOT=$(basename $f | sed 's/dot//')
     echo "h: $f -> $HOME/$NEWDOT"
