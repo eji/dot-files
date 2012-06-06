@@ -7,7 +7,7 @@ startup_message off
 hardstatus on
 hardstatus alwayslastline "[%c] %0`"
 
-#タブ風のキャプション表示
+# caption display as tab
 caption always "%{= wg} %-w%{=bu wb}%n %t%{-}%+w %= "
 
 shell -$SHELL
@@ -29,21 +29,17 @@ vbell off
 
 defscrollback 3000
 
-# コピーモードで Emacs のような移動を可能にする
+# enable to move cursor like emacs with copy mode.
 markkeys h=^b:l=^f:$=^e
 
-# 現在位置から行末までコピーする
-# URL のコピペに使えます(C-a C-k)
+# copy from current pos to eol
 bind ^k  eval "copy" "stuff ' $ '"
 
-# “C-z (スペース)”でコピーモードに入った直後に最初のマークを付ける
-# スペースのかわりに生の ^@ とかを指定するとそれっぽくなります
+# initial mark with copy mode (C-t z)
 bind ' ' eval "copy" "stuff ' '"
 
-# Emacs の yank っぽいペースト法(C-z C-y)
+# paste method like emacs(C-t C-y)
 bind ^y paste .
-# クラス“launcher”として定義されたキーバインドへ移行する
-bind ^x eval "echo 'Launcher-mode:  [ t: top ] [ e: emacs -nw]'" "command -c launcher"
 
 idle 300
 blankerprg /usr/bin/env fortune
