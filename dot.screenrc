@@ -4,6 +4,10 @@ escape ^T^T
 
 startup_message off
 
+cjkwidth on
+
+multiuser on
+
 hardstatus on
 hardstatus alwayslastline "[%c] %0`"
 

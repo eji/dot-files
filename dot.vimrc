@@ -1,11 +1,28 @@
+" vim: set ts=4 sw=4 sts=0:
+"-----------------------------------------------------------------------------
+set fileformats=unix,dos,mac
+if exists('&ambiwidth')
+   set ambiwidth=double
+endif
+
 set modeline
 set nobackup
+set wrapscan
+set noincsearch
 set incsearch
 " Search for ignoring upper / lower case.
 set ignorecase
 " However, search to distinguish between the upper / lower case, when you search only by mixing uppercase.
 set smartcase
 set showmatch
+set hlsearch " enable highlight search
+set nonumber " don't display line number
+set showcmd " display entering command at status line
+set laststatus=2 " display status line always
+set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P " display character code and newline character.
+" change flame size
+map <kPlus> <C-W>+
+map <kMinus> <C-W>-
 
 set encoding=utf-8
 set fileencoding=utf-8
