@@ -14,6 +14,7 @@ if has('vim_starting')
 endif
 
 NeoBundle 'thinca/vim-ref'
+NeoBundle 'Shougo/unite.vim'
 "===============================
 
 syntax on
