@@ -8,6 +8,9 @@ set nocompatible
 filetype off
 set rtp+=~/.vim/vundle.git/
 call vundle#rc()
+
+" plugins
+Bundle 'thinca/vim-ref'
 "===============================
 
 syntax on
@@ -44,5 +47,4 @@ set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V
 " change flame size
 map <kPlus> <C-W>+
 map <kMinus> <C-W>-
-
 
