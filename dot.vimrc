@@ -1,16 +1,19 @@
 " vim: set ts=4 sw=4 sts=0:
 "-----------------------------------------------------------------------------
 
-"===============================
-" for Vundle
-"-------------------------------
 set nocompatible
 filetype off
-set rtp+=~/.vim/vundle.git/
-call vundle#rc()
+"===============================
+" Netbundle
+"-------------------------------
+set rtp+=~/.vim/neobundle.vim.git
 
-" plugins
-Bundle 'thinca/vim-ref'
+if has('vim_starting')
+  set runtimepath+=~/.vim/neobundle.vim.git
+  call neobundle#rc(expand('~/.vim/bundle'))
+endif
+
+NeoBundle 'thinca/vim-ref'
 "===============================
 
 syntax on
