@@ -6,3 +6,5 @@ path=($HOME/local/bin /usr/local/stow.local/bin /usr/local/bin /usr/bin /bin )
 . $HOME/.pythonbrew/etc/bashrc
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+[[ -s "/Users/eji/.rvm/scripts/rvm" ]] && source "/Users/eji/.rvm/scripts/rvm"  # This loads RVM into a shell session.
