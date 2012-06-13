@@ -19,6 +19,7 @@ NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'tpope/vim-haml'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'bbommarito/vim-slim'
+NeoBundle 'vim-scripts/gtags.vim'
 "===============================
 
 syntax on
