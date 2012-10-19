@@ -44,7 +44,7 @@ setopt hist_ignore_dups
 bindkey -e
 
 # Aliases
-alias ls="ls -F"
+alias ls="ls -Fp"
 alias rm="rm -i"
 alias mv="mv -i"
 alias cp="cp -i"
