@@ -15,6 +15,7 @@ for f in $SCRIPT_ABSOLUTE_PATH/dot.*
 do
   NEWDOT=$(basename $f | sed 's/dot//')
   echo "s: ${f}-> $HOME/$NEWDOT"
+  rm -f $HOME/$NEWDOT
   ln -sf $f $HOME/$NEWDOT
 done;
 
