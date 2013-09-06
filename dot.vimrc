@@ -21,6 +21,7 @@ NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-rails', { 'autoload' : { 'filetypes' : ['haml', 'ruby', 'eruby'] }}
 NeoBundle 'vim-scripts/gtags.vim'
 NeoBundle 'rking/ag.vim'
+NeoBundle 'skwp/vim-rspec'
 "===============================
 
 syntax on
