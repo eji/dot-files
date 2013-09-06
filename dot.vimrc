@@ -23,15 +23,31 @@ NeoBundle 'vim-scripts/gtags.vim'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'skwp/vim-rspec'
 NeoBundle 'bling/vim-airline'
-"===============================
+NeoBundle 'ujihisa/unite-colorscheme'
+"~~ colors ~~~~~~~~~~~~~~~~~~~~
+NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle 'w0ng/vim-hybrid'
+NeoBundle 'vim-scripts/twilight'
+NeoBundle 'jonathanfilip/vim-lucius'
+NeoBundle 'jpo/vim-railscasts-theme'
+NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'vim-scripts/Wombat'
+NeoBundle 'tomasr/molokai'
+NeoBundle 'vim-scripts/rdark'
+"==============================
 
-syntax on
+" 現在の配色設定を破棄する場合は syntax on
+" syntax on
+syntax enable
 filetype plugin indent on
 
 set fileformats=unix,dos,mac
 if exists('&ambiwidth')
    set ambiwidth=double
 endif
+
+set background=dark
+colorscheme jellybeans
 
 set encoding=utf-8
 set fileencoding=utf-8
@@ -51,7 +67,7 @@ set ignorecase
 set smartcase
 set showmatch
 set hlsearch " enable highlight search
-set nonumber " don't display line number
+set number " display line number
 set showcmd " display entering command at status line
 set laststatus=2 " display status line always
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P " display character code and newline character.
