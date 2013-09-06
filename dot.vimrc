@@ -22,6 +22,7 @@ NeoBundle 'tpope/vim-rails', { 'autoload' : { 'filetypes' : ['haml', 'ruby', 'er
 NeoBundle 'vim-scripts/gtags.vim'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'skwp/vim-rspec'
+NeoBundle 'bling/vim-airline'
 "===============================
 
 syntax on
@@ -133,4 +134,5 @@ let g:neocomplcache_omni_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
 let g:neocomplcache_omni_patterns.c = '\%(\.\|->\)\h\w*'
 let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 
-
+" vim-airline setting
+let g:airline#extensions#tabline#enabled = 1
