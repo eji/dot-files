@@ -16,6 +16,8 @@ endif
 NeoBundle 'thinca/vim-ref'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neocomplcache'
+NeoBundle 'Shougo/vimshell'
+NeoBundle 'Shougo/vimproc'
 NeoBundle 'tpope/vim-haml'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-rails', { 'autoload' : { 'filetypes' : ['haml', 'ruby', 'eruby'] }}
