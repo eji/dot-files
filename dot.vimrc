@@ -23,6 +23,7 @@ NeoBundle 'gregsexton/gitv'
 NeoBundle 'tpope/vim-haml'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-rails', { 'autoload' : { 'filetypes' : ['haml', 'ruby', 'eruby'] }}
+NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'vim-scripts/gtags.vim'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'skwp/vim-rspec'
