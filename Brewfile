@@ -9,7 +9,6 @@ install git
 install vim
 install zsh
 install tmux
-install screen
 install wget
 install htop-osx
 
