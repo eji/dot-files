@@ -29,6 +29,7 @@ NeoBundle 'rking/ag.vim'
 NeoBundle 'skwp/vim-rspec'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'ujihisa/unite-colorscheme'
+NeoBundle 'Yggdroot/indentLine'
 "~~ colors ~~~~~~~~~~~~~~~~~~~~
 NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'w0ng/vim-hybrid'
@@ -157,3 +158,8 @@ let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 
 " vim-airline setting
 let g:airline#extensions#tabline#enabled = 1
+
+" Yggdroot/indentLine setting
+let g:indentLine_color_term = 222
+let g:indentLine_color_gui = '#708090'
+let g:indentLine_char = '┆' "use ¦, ┆ or │ 
