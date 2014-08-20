@@ -160,6 +160,6 @@ let g:neocomplcache_omni_patterns.cpp = '\h\w*\%(\.\|->\)\h\w*\|\h\w*::'
 let g:airline#extensions#tabline#enabled = 1
 
 " Yggdroot/indentLine setting
-let g:indentLine_color_term = 222
+let g:indentLine_color_term = 242
 let g:indentLine_color_gui = '#708090'
-let g:indentLine_char = '┆' "use ¦, ┆ or │ 
+let g:indentLine_char = '¦' "use ¦, ┆ or │ 
