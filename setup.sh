@@ -18,7 +18,3 @@ do
   rm -f $HOME/$NEWDOT
   ln -sf $f $HOME/$NEWDOT
 done;
-
-echo "s: ${SCRIPT_ABSOLUTE_PATH}/Brewfile -> $HOME/Brewfile"
-rm -f $HOME/Brewfile
-ln -s ${SCRIPT_ABSOLUTE_PATH}/Brewfile $HOME/Brewfile
