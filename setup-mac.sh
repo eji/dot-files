@@ -2,11 +2,31 @@
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
+# ユーザー共通の設定
+
+## マルチユーザーでHomebrewを使うための設定
+grep "umask 0002" "/etc/profile" 2>&1 1>/dev/null
+if [ $? -ne 0 ] ; then
+  sudo sh -c "echo 'umask 0002' >> /etc/profile"
+fi
+grep "umask 0002" "/etc/zprofile" 2>&1 1>/dev/null
+if [ $? -ne 0 ] ; then
+  sudo sh -c "echo 'umask 0002' >> /etc/zprofile"
+fi
+umask 0002
+
+## 既にHomebrewのパッケージがインストールされている場合は、ディレクトリのパーミッションを変更する
+sudo chmod -R g+w /usr/local
+sudo chgrp -R staff /usr/local
+sudo chmod -R g+w /opt/homebrew-cask
+
+## パッケージのインストール
 brew update
 brew upgrade
 
 brew tap caskroom/cask || true
 brew tap homebrew/binary || true
+brew tap homebrew/versions || true
 
 brew install brew-cask
 brew install git
