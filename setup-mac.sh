@@ -48,9 +48,10 @@ brew cask install evernote || true
 brew cask install sourcetree || true
 brew cask install skype || true
 brew cask install sophos-anti-virus-home-edition || true
-brew cask install google-chrome
-brew cask install firefox
-brew cask install yorufukurou
+brew cask install google-chrome || true
+brew cask install firefox || true
+brew cask install yorufukurou || true
+brew cask install kobito || true
 
 brew cask alfred link || true
 
