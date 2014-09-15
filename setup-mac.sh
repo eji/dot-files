@@ -52,6 +52,7 @@ brew cask install google-chrome || true
 brew cask install firefox || true
 brew cask install yorufukurou || true
 brew cask install kobito || true
+brew cask install slack || true
 
 brew cask alfred link || true
 
