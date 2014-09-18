@@ -84,3 +84,6 @@ function vcs_echo {
 PROMPT='
 %(?.%F{green}[st:%?] %f.%F{red}[st:%?] %f) %F{yellow}[%n@%M:%~]%f `vcs_echo`
 %(?.%F{green}➥ %f.%F{red}➥ %f) '
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/Users/eji/.gvm/bin/gvm-init.sh" ]] && source "/Users/eji/.gvm/bin/gvm-init.sh"

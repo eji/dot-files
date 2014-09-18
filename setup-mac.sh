@@ -58,3 +58,8 @@ brew cask alfred link || true
 
 brew cleanup
 brew cask cleanup
+
+# Groovy
+## GVM
+curl -s get.gvmtool.net | bash
+
