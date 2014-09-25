@@ -53,6 +53,7 @@ brew cask install firefox || true
 brew cask install yorufukurou || true
 brew cask install kobito || true
 brew cask install slack || true
+brew cask install android-studio || true
 
 brew cask alfred link || true
 
@@ -63,3 +64,7 @@ brew cask cleanup
 ## GVM
 curl -s get.gvmtool.net | bash
 
+
+# Node
+## NVM
+curl https://raw.githubusercontent.com/creationix/nvm/v0.17.0/install.sh | bash
