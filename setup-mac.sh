@@ -31,6 +31,7 @@ brew tap homebrew/versions || true
 brew install brew-cask
 brew install git
 brew install vim
+brew install emacs
 brew install zsh
 brew install tmux
 brew install wget
