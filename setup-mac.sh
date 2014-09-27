@@ -38,6 +38,7 @@ brew install zsh
 brew install tmux
 brew install wget
 brew install htop-osx
+brew install pt
 
 brew cask install iterm2 || true
 brew cask install google-japanese-ime || true
