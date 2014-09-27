@@ -57,6 +57,8 @@ brew cask install yorufukurou || true
 brew cask install kobito || true
 brew cask install slack || true
 brew cask install android-studio || true
+brew cask install xquartz || true
+brew cask install inkscape || true
 
 brew cask alfred link || true
 
