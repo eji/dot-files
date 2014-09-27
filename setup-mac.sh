@@ -19,6 +19,8 @@ umask 0002
 sudo chmod -R g+w /usr/local
 sudo chgrp -R staff /usr/local
 sudo chmod -R g+w /opt/homebrew-cask
+sudo chgrp -R staff /Library/Caches/Homebrew
+sudo chmod -R g+w /Library/Caches/Homebrew
 
 ## パッケージのインストール
 brew update

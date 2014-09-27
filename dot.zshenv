@@ -6,3 +6,5 @@ then
 else
   export JAVA_HOME=
 fi
+
+export PATH=/usr/local/bin:$PATH
