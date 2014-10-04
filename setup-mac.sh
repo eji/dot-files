@@ -40,6 +40,7 @@ brew install wget
 brew install htop-osx
 brew install pt
 brew install multitail
+brew install go
 
 brew cask install iterm2 || true
 brew cask install google-japanese-ime || true
@@ -61,6 +62,7 @@ brew cask install slack || true
 brew cask install android-studio || true
 brew cask install xquartz || true
 brew cask install inkscape || true
+brew cask install haskell-platform || true
 
 brew cask alfred link || true
 
