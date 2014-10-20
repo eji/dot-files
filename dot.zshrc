@@ -4,7 +4,7 @@ stty erase "^H" # C-h: backspace key
 ## First, load auto completion module.
 autoload -U compinit
 ## Second, initialize completion.
-compinit
+compinit -u
 ## Set to ignore upper / lower case
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
