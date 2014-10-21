@@ -1,4 +1,5 @@
 stty erase "^H" # C-h: backspace key
+stty erase "^?"
 
 # Completion
 ## First, load auto completion module.
