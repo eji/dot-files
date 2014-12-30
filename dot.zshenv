@@ -9,3 +9,5 @@ else
 fi
 
 export PATH=/usr/local/bin:$PATH
+
+export GAUCHE_LOAD_PATH=".:./lib:./src"
