@@ -11,3 +11,13 @@ fi
 export PATH=/usr/local/bin:$PATH
 
 export GAUCHE_LOAD_PATH=".:./lib:./src"
+
+export ANDROID_HOME=/opt/homebrew-cask/Caskroom/android-studio/0.8.6\ build-135.1339820/Android\ Studio.app/sdk
+
+B2D=$(which boot2docker)
+if [ -x "${B2D}" ]; then
+  if [ "poweroff" = "$($B2D status)" ]; then
+    $B2D up
+  fi
+  eval $($B2D shellinit)
+fi

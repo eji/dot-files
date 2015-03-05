@@ -53,13 +53,13 @@ alias cp="cp -i"
 alias -g L='| lv -c'
 alias -g V='| view -'
 
-function ssh_screen(){
-    eval server=\${$#}
-    screen -t $server ssh "$@"
-}
-if [ x$TERM = xscreen ]; then
-    alias ssh=ssh_screen
-fi
+#function ssh_screen(){
+#    eval server=\${$#}
+#    screen -t $server ssh "$@"
+#}
+#if [ x$TERM = xscreen ]; then
+#    alias ssh=ssh_screen
+#fi
 
 # prompt 
 autoload -Uz vcs_info
