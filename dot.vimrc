@@ -37,6 +37,7 @@ NeoBundle 'skwp/vim-rspec'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'ujihisa/unite-colorscheme'
 NeoBundle 'Yggdroot/indentLine'
+NeoBundle 'editorconfig/editorconfig-vim'
 "~~ colors ~~~~~~~~~~~~~~~~~~~~
 NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'w0ng/vim-hybrid'
