@@ -38,6 +38,7 @@ NeoBundle 'bling/vim-airline'
 NeoBundle 'ujihisa/unite-colorscheme'
 NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'editorconfig/editorconfig-vim'
+NeoBundle 'VimClojure'
 "~~ colors ~~~~~~~~~~~~~~~~~~~~
 NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'w0ng/vim-hybrid'
@@ -171,3 +172,10 @@ let g:airline#extensions#tabline#enabled = 1
 let g:indentLine_color_term = 242
 let g:indentLine_color_gui = '#708090'
 let g:indentLine_char = '¦' "use ¦, ┆ or │ 
+
+" VimClojure
+let vimclojure#WantNailgun       = 1     " Nailgunを要求する
+let vimclojure#NailgunClient     = "ng"  " Nailgunのクライアントコマンド
+let vimclojure#HighlightBuiltins = 1     " ビルトイン系をハイライト
+let vimclojure#ParenRainbow      = 1     " カッコの色を階層に応じてカラフルにする
+

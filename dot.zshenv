@@ -8,7 +8,7 @@ else
   export JAVA_HOME=
 fi
 
-export PATH=/usr/local/bin:$PATH
+export PATH=~/local/bin:/usr/local/bin:$PATH
 
 export GAUCHE_LOAD_PATH=".:./lib:./src"
 
@@ -21,3 +21,6 @@ if [ -x "${B2D}" ]; then
   fi
   eval $($B2D shellinit)
 fi
+
+export GOPATH=$HOME/myproj/golang
+export PATH=$PATH:$GOPATH/bin
