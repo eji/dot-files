@@ -14,5 +14,6 @@ export GAUCHE_LOAD_PATH=".:./lib:./src"
 
 export ANDROID_HOME=/opt/homebrew-cask/Caskroom/android-studio/0.8.6\ build-135.1339820/Android\ Studio.app/sdk
 
-export GOPATH=$HOME/myproj/golang
+export GOPATH=$HOME/golang
 export PATH=$PATH:$GOPATH/bin
+export GO15VENDOREXPERIMENT=1
