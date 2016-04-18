@@ -17,3 +17,4 @@ export ANDROID_HOME=/opt/homebrew-cask/Caskroom/android-studio/0.8.6\ build-135.
 export GOPATH=$HOME/golang
 export PATH=$PATH:$GOPATH/bin
 export GO15VENDOREXPERIMENT=1
+export EDITOR=vim
