@@ -18,3 +18,6 @@ export GOPATH=$HOME/golang
 export PATH=$PATH:$GOPATH/bin
 export GO15VENDOREXPERIMENT=1
 export EDITOR=vim
+
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
