@@ -1,6 +1,7 @@
 "==================================================================
 " プラグイン管理
 " @see https://github.com/junegunn/vim-plug
+" TODO: 後でVim標準のプラグイン機能を使うようにすること
 "==================================================================
 
 call plug#begin('~/.cache/nvim/plugged')
@@ -15,5 +16,15 @@ Plug 'itchyny/lightline.vim'
 " ファイルシステムをツリー状に表示してくれるやつ
 " NERDTreeToggle でロードされるようにしている
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+
+" インデントを色分けして表示してくれる
+" :IndentGuidesEnable で有効にできる
+Plug 'nathanaelkane/vim-indent-guides'
+
+" カラーテーマ
+Plug 'altercation/vim-colors-solarized'
+
+" 現在のカーソルの行を変える
+Plug 'miyakogi/conoline.vim'
 
 call plug#end()
