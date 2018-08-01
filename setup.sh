@@ -18,3 +18,13 @@ do
   rm -f $HOME/$NEWDOT
   ln -sf $f $HOME/$NEWDOT
 done;
+
+# ~/.config
+mkdir -p ~/.config
+for f in $SCRIPT_ABSOLUTE_PATH/_config/*
+do
+  CONFIG_DIR=$(basename $f)
+  echo "s: ${f}-> $HOME/.config/${CONFIG_DIR}"
+  echo "rm -rf $HOME/.config/$CONFIG_DIR"
+  echo "ln -sf $f $HOME/.config/${CONFIG_DIR} "
+done;
