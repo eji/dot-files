@@ -2,6 +2,7 @@
 # VERSION: 3.0
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR _fish_abbr_brspec:bundle\x20exec\x20rspec
+SETUVAR _fish_abbr_notify:terminal\x2dnotifier
 SETUVAR _fish_abbr_rspec:bundle\x20exec\x20rspec
 SETUVAR fish_color_autosuggestion:BD93F9
 SETUVAR fish_color_cancel:\x2dr

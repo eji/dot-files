@@ -27,4 +27,8 @@ Plug 'altercation/vim-colors-solarized'
 " 現在のカーソルの行を変える
 Plug 'miyakogi/conoline.vim'
 
+" fzfを使うため
+Plug '/usr/local/bin/fzf'
+Plug 'junegunn/fzf.vim'
+
 call plug#end()
