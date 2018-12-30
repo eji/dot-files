@@ -6,6 +6,8 @@
 #   ./setup.sh
 #
 
+set -ex
+
 SCRIPT_RELATIVE_PATH=$(dirname $0)
 pushd $SCRIPT_RELATIVE_PATH 1> /dev/null 2>&1
 SCRIPT_ABSOLUTE_PATH=$(pwd)
