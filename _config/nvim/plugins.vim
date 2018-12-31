@@ -28,7 +28,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'miyakogi/conoline.vim'
 
 " fzfを使うため
-Plug '/usr/local/bin/fzf'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
 call plug#end()

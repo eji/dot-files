@@ -95,3 +95,5 @@ export NVM_DIR="$HOME/.nvm"
 # for my work environment.
 source $HOME/myproj/work-env/dot.zshrc
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
