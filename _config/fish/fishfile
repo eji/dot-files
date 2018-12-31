@@ -6,3 +6,4 @@ end
 jethrokuan/fzf
 
 set -g -x EDITOR 'nvim'
+decors/fish-ghq
