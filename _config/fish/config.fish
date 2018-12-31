@@ -4,7 +4,9 @@ if status is-interactive
 end
 set -g fish_user_paths "/usr/local/opt/gettext/bin" $fish_user_paths
 
-bind \ce '__ghq_crtl_g'
+bind \cg '__ghq_crtl_g'
 if bind -M insert >/dev/null ^/dev/null
-    bind -M insert \ce '__ghq_crtl_g'
+    bind -M insert \cg '__ghq_crtl_g'
 end
+
+set -g -x EDITOR 'nvim'

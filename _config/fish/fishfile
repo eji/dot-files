@@ -4,6 +4,4 @@ if not functions -q fisher
   fish -c fisher
 end
 jethrokuan/fzf
-
-set -g -x EDITOR 'nvim'
 decors/fish-ghq
