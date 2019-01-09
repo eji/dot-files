@@ -8,6 +8,7 @@ SETUVAR FZF_TMUX_HEIGHT:40\x25
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
+SETUVAR _fish_abbr_be:bundle\x20exec
 SETUVAR _fish_abbr_brspec:bundle\x20exec\x20rspec
 SETUVAR _fish_abbr_notify:terminal\x2dnotifier
 SETUVAR _fish_abbr_rspec:bundle\x20exec\x20rspec
