@@ -31,4 +31,13 @@ Plug 'miyakogi/conoline.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
+" Ruby開発用
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-endwise'
+Plug 'skalnik/vim-vroom'
+
+Plug 'tpope/vim-fugitive'
+
 call plug#end()

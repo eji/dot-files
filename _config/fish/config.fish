@@ -10,3 +10,4 @@ if bind -M insert >/dev/null ^/dev/null
 end
 
 set -g -x EDITOR 'nvim'
+eval (direnv hook fish)
