@@ -10,7 +10,9 @@ SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
 SETUVAR _fish_abbr_be:bundle\x20exec
 SETUVAR _fish_abbr_brspec:bundle\x20exec\x20rspec
+SETUVAR _fish_abbr_mv:mv\x20\x2di
 SETUVAR _fish_abbr_notify:terminal\x2dnotifier
+SETUVAR _fish_abbr_rm:rm\x20\x2di
 SETUVAR _fish_abbr_rspec:bundle\x20exec\x20rspec
 SETUVAR _fish_abbr_v:nvim
 SETUVAR _fish_abbr_vi:nvim

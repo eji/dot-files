@@ -11,3 +11,5 @@ end
 
 set -g -x EDITOR 'nvim'
 eval (direnv hook fish)
+
+status --is-interactive; and source (nodenv init -|psub)
