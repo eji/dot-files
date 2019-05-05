@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # When you execute this script, create hard link at your homedir.
 #
