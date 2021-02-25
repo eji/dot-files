@@ -1,0 +1,1 @@
+/Users/koji.ejiri/.fzf/shell/key-bindings.fish
